@@ -1,0 +1,357 @@
+# These IPs will only block the telemetry check of Corel apps,
+# and shouldn't interfere with any other network option,
+# such as AI generation, downloads, etc.
+# 0.0.0.0 can be found in https://a.dove.isdumb.one/list.txt
+# Pop up window? Report at:
+# https://github.com/ignaciocastro/a-dove-is-dumb/issues
+# Or follow updates at https://a.dove.isdumb.one/telegram
+# Last update: 2025-07-21 11:41 UTC
+payload:
+  - DOMAIN,ic.adobe.io
+  - DOMAIN,cc-api-data.adobe.io
+  - DOMAIN,0mo5a70cqa.adobe.io
+  - DOMAIN,1b9khekel6.adobe.io
+  - DOMAIN,1hzopx6nz7.adobe.io
+  - DOMAIN,22gda3bxkb.adobe.io
+  - DOMAIN,23ynjitwt5.adobe.io
+  - DOMAIN,2ftem87osk.adobe.io
+  - DOMAIN,3ca52znvmj.adobe.io
+  - DOMAIN,3d3wqt96ht.adobe.io
+  - DOMAIN,4vzokhpsbs.adobe.io
+  - DOMAIN,5zgzzv92gn.adobe.io
+  - DOMAIN,69tu0xswvq.adobe.io
+  - DOMAIN,7g2gzgk9g1.adobe.io
+  - DOMAIN,7m31guub0q.adobe.io
+  - DOMAIN,7sj9n87sls.adobe.io
+  - DOMAIN,8ncdzpmmrg.adobe.io
+  - DOMAIN,9ngulmtgqi.adobe.io
+  - DOMAIN,aoorovjtha.adobe.io
+  - DOMAIN,b5kbg2ggog.adobe.io
+  - DOMAIN,cd536oo20y.adobe.io
+  - DOMAIN,dxyeyf6ecy.adobe.io
+  - DOMAIN,dyzt55url8.adobe.io
+  - DOMAIN,fgh5v09kcn.adobe.io
+  - DOMAIN,fqaq3pq1o9.adobe.io
+  - DOMAIN,guzg78logz.adobe.io
+  - DOMAIN,gw8gfjbs05.adobe.io
+  - DOMAIN,i7pq6fgbsl.adobe.io
+  - DOMAIN,ij0gdyrfka.adobe.io
+  - DOMAIN,ivbnpthtl2.adobe.io
+  - DOMAIN,jc95y2v12r.adobe.io
+  - DOMAIN,lre1kgz2u4.adobe.io
+  - DOMAIN,m59b4msyph.adobe.io
+  - DOMAIN,p0bjuoe16a.adobe.io
+    # Adobe
+  - DOMAIN,3dns.adobe.com
+  - DOMAIN,3dns-1.adobe.com
+  - DOMAIN,3dns-2.adobe.com
+  - DOMAIN,3dns-3.adobe.com
+  - DOMAIN,3dns-4.adobe.com
+  - DOMAIN,3dns-5.adobe.com
+  - DOMAIN,t3dns.adobe.com
+  - DOMAIN,3dns*.adobe.com
+  - DOMAIN,adobe-dns-1.adobe.com
+  - DOMAIN,adobe-dns-2.adobe.com
+  - DOMAIN,adobe-dns-3.adobe.com
+  - DOMAIN,adobe-dns-4.adobe.com
+  - DOMAIN,adobe-dns-1.adobe.de
+  - DOMAIN,adobe-dns-2.adobe.de
+  - DOMAIN,adobe-dns-3.adobe.de
+  - DOMAIN,adobe-dns-4.adobe.de
+  - DOMAIN,adobe-dns.adobe.de
+  - DOMAIN,adobe-dns.adobe.com
+  - DOMAIN,adobe.activate.com
+  - DOMAIN,adobeereg.com
+  - DOMAIN,www.adobeereg.com
+  - DOMAIN,ereg.wip.adobe.com
+  - DOMAIN,ereg.wip1.adobe.com
+  - DOMAIN,ereg.wip2.adobe.com
+  - DOMAIN,ereg.wip4.adobe.com
+  - DOMAIN,activate.wip.adobe.com
+  - DOMAIN,activate.wip1.adobe.com
+  - DOMAIN,activate.wip2.adobe.com
+  - DOMAIN,activate.wip4.adobe.com
+  - DOMAIN,lmlicenses.wip1.adobe.com
+  - DOMAIN,lmlicenses.wip2.adobe.com
+  - DOMAIN,lmlicenses.wip3.adobe.com
+  - DOMAIN,hl2rcv.adobe.com
+  - DOMAIN,hlrcv.stage.adobe.com
+  - DOMAIN,lm.licenses.adobe.com
+  - DOMAIN,lmlicenses.wip4.adobe.com
+  - DOMAIN,na1r.services.adobe.com
+  - DOMAIN,na2m-pr.licenses.adobe.com
+  - DOMAIN,practivate.adobe
+  - DOMAIN,practivate.adobe.ipp
+  - DOMAIN,practivate.adobe.ntp
+  - DOMAIN,tpractivate.adobe.newoa
+  - DOMAIN,ood.opsource.net
+  - DOMAIN,209-34-83-73.ood.opsource.net
+  - DOMAIN,adobe.tt.omtrdc.net
+#wip.adobe.com   # The following are disabled as they may interfere
+#wip1.adobe.com  # when visiting the adobe.com website
+#wip2.adobe.com
+#wip3.adobe.com
+#wip4.adobe.com
+  - DOMAIN,activate.adobe.com
+  - DOMAIN,practivate.adobe.com
+  - DOMAIN,ereg.adobe.com
+  - DOMAIN,activate.wip3.adobe.com
+  - DOMAIN,ereg.wip3.adobe.com
+  - DOMAIN,activate-sea.adobe.com
+  - DOMAIN,activate-sea.adobe.de
+  - DOMAIN,activate-sjc0.adobe.com
+  - DOMAIN,activate-sjc0.adobe.de
+  - DOMAIN,activate.adobe.de
+  - DOMAIN,activate.wip3.adobe.de
+  - DOMAIN,cmdls.adobe.com
+#crl.verisign.net
+  - DOMAIN,ereg.adobe.de
+  - DOMAIN,genuine.adobe.com
+  - DOMAIN,hl2rcv.adobe.de
+  - DOMAIN,ims-na1-prprod.adobelogin.com
+  - DOMAIN,na2m-stg2.licenses.adobe.com
+  - DOMAIN,na4r.services.adobe.com
+  - DOMAIN,ocsp.spo1.verisign.com
+  - DOMAIN,practivate.adobe.de
+  - DOMAIN,practivate.adobe.newoa
+  - DOMAIN,prod-rel-ffc-ccm.oobesaas.adobe.com
+  - DOMAIN,s-2.adobe.com
+  - DOMAIN,s-3.adobe.com
+  - DOMAIN,tss-geotrust-crl.thawte.com
+  - DOMAIN,uds.licenses.adobe.com
+
+# Adobe wildcard
+wwis-dubc1-vip60.adobe.com
+wwis-dubc1-vip*.adobe.com
+wwis-dubc1-vip*.adobe.de
+wwis-dubc1-vip*
+practivate.adobe.*
+
+# Autodesk
+  - DOMAIN,autodesk.fi 
+  - DOMAIN,autodesk.de
+  - DOMAIN,autodesk.es
+  - DOMAIN,autodesk.ca
+  - DOMAIN,autodesk.dk
+  - DOMAIN,autodesk.pl
+  - DOMAIN,ns1.autodesk.com
+  - DOMAIN,ns2.autodesk.com
+  - DOMAIN,ns3.autodesk.com
+  - DOMAIN,ns4.autodesk.com
+  - DOMAIN,ns5.autodesk.com
+  - DOMAIN,126114-app1.autodesk.com
+  - DOMAIN,94175-app1.autodesk.com
+  - DOMAIN,94184-app2.autodesk.com
+  - DOMAIN,96579-lbal1.autodesk.com
+  - DOMAIN,acamp.autodesk.com
+  - DOMAIN,adeskdi3.autodesk.com
+  - DOMAIN,adeskdmzpdc.autodesk.com
+  - DOMAIN,adeskgate.autodesk.com
+  - DOMAIN,adesknews2.autodesk.com
+  - DOMAIN,adeskout.autodesk.com
+  - DOMAIN,adsknateur.autodesk.com
+  - DOMAIN,amernetlog.autodesk.com
+  - DOMAIN,app5.autodesk.com
+  - DOMAIN,aprimo-relay1.autodesk.com
+  - DOMAIN,aprimo-relay2.autodesk.com
+  - DOMAIN,aprimo-relay3.autodesk.com
+  - DOMAIN,aprimo-relay4.autodesk.com
+  - DOMAIN,autosketch.autodesk.com
+  - DOMAIN,blues.autodesk.com
+  - DOMAIN,cbuanprd.autodesk.com
+  - DOMAIN,cbuanprhcllb.autodesk.com
+  - DOMAIN,cbuanqa2lb.autodesk.com
+  - DOMAIN,ci3dwsdev-svc.autodesk.com
+  - DOMAIN,ci3dwsprd-svc.autodesk.com
+  - DOMAIN,ci3dwsstg-svc.autodesk.com
+  - DOMAIN,community.autodesk.com
+  - DOMAIN,cut.autodesk.com
+  - DOMAIN,cvsprd01.autodesk.com
+  - DOMAIN,discussion.autodesk.com
+  - DOMAIN,eur.autodesk.com
+  - DOMAIN,extcidev.autodesk.com
+  - DOMAIN,extciqa.autodesk.com
+  - DOMAIN,extupg.autodesk.com
+  - DOMAIN,ftp-users.autodesk.com
+  - DOMAIN,ftp2b.autodesk.com
+  - DOMAIN,gisdmzpdc.autodesk.com
+  - DOMAIN,hqaribasrf04.autodesk.com
+  - DOMAIN,hqmgwww01.autodesk.com
+  - DOMAIN,hqmgwww04.autodesk.com
+  - DOMAIN,hqmobileweb01.autodesk.com
+  - DOMAIN,hqprxsrftrn.autodesk.com
+  - DOMAIN,hqpsweb01.autodesk.com
+  - DOMAIN,hubdev-svc.autodesk.com
+  - DOMAIN,hubprd-svc.autodesk.com
+  - DOMAIN,hubstg-svc.autodesk.com
+  - DOMAIN,itappprd01-svc.autodesk.com
+  - DOMAIN,itappprd02-svc.autodesk.com
+  - DOMAIN,its.autodesk.com
+  - DOMAIN,jdevextv-new.autodesk.com
+  - DOMAIN,jp.autodesk.com
+  - DOMAIN,jstgextv-new.autodesk.com
+  - DOMAIN,jstgintv-new.autodesk.com
+  - DOMAIN,lbsvzw.autodesk.com
+  - DOMAIN,lbsvzw1.autodesk.com
+  - DOMAIN,lbsvzw2.autodesk.com
+  - DOMAIN,library.autodesk.com
+  - DOMAIN,liveupdate.autodesk.com
+  - DOMAIN,locationservices.autodesk.com
+  - DOMAIN,lsctsol04.autodesk.com
+  - DOMAIN,mail-relay.autodesk.com
+  - DOMAIN,mneprdext-svc.autodesk.com
+  - DOMAIN,mut.autodesk.com
+  - DOMAIN,nbugma-dmz.autodesk.com
+  - DOMAIN,nut.autodesk.com
+  - DOMAIN,otw-new.autodesk.com
+  - DOMAIN,otwdownloads.autodesk.com
+  - DOMAIN,partnercenter.autodesk.com
+  - DOMAIN,partnerproducts.autodesk.com
+  - DOMAIN,paste.autodesk.com
+  - DOMAIN,pedidrq.autodesk.com
+  - DOMAIN,pediqrx.autodesk.com
+  - DOMAIN,petars1.autodesk.com
+  - DOMAIN,petcp11ia-2nat.autodesk.com
+  - DOMAIN,petcr12ihsrp2.autodesk.com
+  - DOMAIN,phxgciv.autodesk.com
+  - DOMAIN,phxgciv_dr.autodesk.com
+  - DOMAIN,planix3d.autodesk.com
+  - DOMAIN,pointa.autodesk.com
+  - DOMAIN,register.autodesk.com
+  - DOMAIN,registerallied-pr.autodesk.com
+  - DOMAIN,registeronce.autodesk.com
+  - DOMAIN,salestraining.autodesk.com
+  - DOMAIN,searchnews.autodesk.com
+  - DOMAIN,shop.autodesk.com
+  - DOMAIN,spamster-bulk.autodesk.com
+  - DOMAIN,sswwwp.autodesk.com
+  - DOMAIN,trialdownload.autodesk.com
+  - DOMAIN,usa.autodesk.com
+  - DOMAIN,uspetcr12ie_198.autodesk.com
+  - DOMAIN,uspetcr12if.autodesk.com
+  - DOMAIN,uspetcr12if_198.autodesk.com
+  - DOMAIN,uspetcrs12ia_ib_vlan500_2_hsrp.autodesk.com
+  - DOMAIN,uspetcrs12ia_vlan500_2.autodesk.com
+  - DOMAIN,uspetcrs12ib_vlan500_2.autodesk.com
+  - DOMAIN,uspetne06ia_ib_untrust_dip7.autodesk.com
+  - DOMAIN,usrelay.autodesk.com
+  - DOMAIN,ussclout1.autodesk.com
+  - DOMAIN,vzwlpsrel.autodesk.com
+  - DOMAIN,vzwlpstst.autodesk.com
+  - DOMAIN,web.autodesk.com
+  - DOMAIN,webservices.autodesk.com
+  - DOMAIN,wormhole.autodesk.com
+  - DOMAIN,www3.autodesk.com
+  - DOMAIN,#www.autodesk.com
+#autodesk.com
+
+# ACDSee
+  - DOMAIN,acdid.acdsystems.com
+
+# Acronis
+  - DOMAIN,activation.acronis.com
+  - DOMAIN,web-api-tih.acronis.com
+  - DOMAIN,web-api-tie.acronis.com
+  - DOMAIN,web-api-vmp.acronis.com
+  - DOMAIN,cloud-rs-us2-acronis.com
+  - DOMAIN,cloud-fes-us2-acronis.com
+  - DOMAIN,rpc.acronis.com
+
+# Ashampoo
+  - DOMAIN,licenses.ashampoo.com
+
+# Alcohol
+  - DOMAIN,serial.alcohol-soft.com
+  - DOMAIN,trial.alcohol-soft.com
+
+# Avast
+  - DOMAIN,ns2.avast.com
+  - DOMAIN,pns.avast.com
+#avast.com
+
+# Bandicam
+#ssl.bandisoft.com
+#cert.bandicam.com
+#bandicam.com
+
+# BartelsMedia ShareMouse
+  - DOMAIN,bartelsmedia.com
+  - DOMAIN,www.bartelsmedia.com
+
+# BitSum and Process Lasso
+  - DOMAIN,activate.bitsum.com
+  - DOMAIN,bitsumactivationserver.com
+  - DOMAIN,www.bitsumactivationserver.com
+
+# BlueSoleil
+  - DOMAIN,license.bluesoleil.com
+  - DOMAIN,license2.bluesoleil.com
+  - DOMAIN,license3.bluesoleil.com
+#www.bluesoleil.com
+#bluesoleil.com
+
+# Capture One
+  - DOMAIN,activation.phaseone.com
+
+# Corel
+  - DOMAIN,apps.corel.com
+  - DOMAIN,product.corel.com
+  - DOMAIN,mc.corel.com
+  - DOMAIN,origin-mc.corel.com
+  - DOMAIN,iws.corel.com
+  - DOMAIN,ipm.corel.com
+  - DOMAIN,sws.corel.com
+  - DOMAIN,dam.corel.com
+  - DOMAIN,deploy.akamaitechnologies.com
+  - DOMAIN,compute-1.amazonaws.com
+  - DOMAIN,dev1.ipm.corel.public.corel.net
+  - DOMAIN,content.corel.com
+  - DOMAIN,ipp.corel.com
+  - DOMAIN,idp.corel.com
+  - DOMAIN,secure.ipp.corel.com
+
+# ChrisPC
+#chris-pc.com
+
+# Cyberlink
+  - DOMAIN,activation.cyberlink.com
+  - DOMAIN,cap.cyberlink.com
+
+# DAEMON Tools
+  - DOMAIN,secure.disc-soft.com
+
+# EaseUS
+  - DOMAIN,activation.easeus.com
+  - DOMAIN,track.easeus.com
+
+# Eltima
+  - DOMAIN,activate.eltima.com
+
+# Folder Lock
+  - DOMAIN,password-protect-folders.net
+
+# Deep Freeze
+  - DOMAIN,upd.faronicslabs.com
+
+# Lumion3D
+  - DOMAIN,backup.lumion3d.com
+  - DOMAIN,backup.lumion3d.net
+  - DOMAIN,license.lumion3d.com
+  - DOMAIN,license.lumion3d.net
+  - DOMAIN,activate.lumion.net
+  - DOMAIN,license.lumiontech.net
+
+# Nikon CaptureNX
+  - DOMAIN,sams.nikonimaging.com
+
+
+# Rhinoceros 3D 
+  - DOMAIN,api.mcneel.com
+
+# VideoMakerFX
+  - DOMAIN,auth7.videomakerfx.com
+
+# Wondershare
+  - DOMAIN,cbs.wondershare.com
+  - DOMAIN,platform.wondershare.com
+  - DOMAIN,macplatform.wondershare.com
